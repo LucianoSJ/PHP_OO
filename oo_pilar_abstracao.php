@@ -64,15 +64,15 @@
     $y->__set('numFilhos', 2);
     $y->__set('cargo', 'Axiliar de Expedição');
     $y->__set('salario', 'R$ 1780,52');
-    echo $y->resumirCadFunc();
-    // echo $y->__get('nome') . ' possui ' . $y->__get('numFilhos') . ' filho(s) o seu telefone é ' . $y->__get('telefone') . ' / Cargo: ' . $y->__get('cargo') . '  / Salário: '. $y->__get('salario');
+    // echo $y->resumirCadFunc();
+    echo $y->__get('nome') . ' possui ' . $y->__get('numFilhos') . ' filho(s) o seu telefone é ' . $y->__get('telefone') . ' / Cargo: ' . $y->__get('cargo') . '  / Salário: '. $y->__get('salario');
 
     echo '<br />';
     $x = new Funcionario();
-    $x->__set('nome', 'Maria');
-    $x->__set('telefone', '(11)974875-3698');
-    $x->__set('numFilhos', 0);
-    echo $x->resumirCadFunc();
-    // echo $y->__get('nome') . ' possui ' . $y->__get('numFilhos') . ' filho(s) o seu telefone é ' . $y->__get('telefone');
+    $y->__set('nome', 'Maria');
+    $y->__set('telefone', '(11)974875-3698');
+    $y->__set('numFilhos', 0);
+    // echo $y->resumirCadFunc();
+    echo $y->__get('nome') . ' possui ' . $y->__get('numFilhos') . ' filho(s) o seu telefone é ' . $y->__get('telefone');
   
 ?>
